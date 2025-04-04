@@ -1,1 +1,37 @@
 # Study-Planner-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Plan Smart, Study Smarter!</h1>
+        <p>Track your study progress, set deadlines, and stay motivated.</p>
+        <div class="cta">
+            <button onclick="startPlanning()">Start Planning Now</button>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Task Management</h3>
+                <p>Organize subjects and tasks with deadlines.</p>
+            </div>
+            <div class="feature">
+                <h3>Progress Tracking</h3>
+                <p>Use checklists, graphs, and timers to track study sessions.</p>
+            </div>
+            <div class="feature">
+                <h3>AI-Powered Planning</h3>
+                <p>Let AI suggest the best study schedule for you.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
